@@ -1,7 +1,7 @@
 # Shodan_Search
 Based on the Shodan API, it displays the open ports and security vulnerabilities of the server related to the entered ip or hostname.
 
-"Shodan_Search" programı "Shodan Api"sine dayanan bir zafiyet arama programıdır. Ip'si ya da hostname'i bilinen sunucunun açık portlarını ve varsa güvenlik açıklarını "Shodan" ait veritabanından python aracılığıyla çekerek kullanıcıya gösterir. Ayrıca verilen network aralığındaki IP ve açık  port bilgilerini de getirir. Aşırı veri alışverişini önlemek için network taramamlarında gösterilen IP sayısı 100 ile sınırlandırılmıştır. Sadece Python scripti olarak değil, tam anlamıyla derlenecek bir program olarak tasarlanmıştır.
+"Shodan_Search" programı "Shodan Api"sine dayanan bir zafiyet arama programıdır. Ip'si ya da hostname'i bilinen sunucunun açık portlarını ve varsa güvenlik açıklarını "Shodan"a ait veritabanından python aracılığıyla çekerek kullanıcıya gösterir. Ayrıca istenirse, verilen network aralığındaki IP ve açık  port bilgilerini de getirir. Aşırı veri alışverişini önlemek için network taramalarında gösterilen IP sayısı 100 ile sınırlandırılmıştır. Sadece Python scripti olarak değil, tam anlamıyla derlenecek bir program olarak tasarlanmıştır.
 
 Programın derlenmiş çalışır haline ait video  "https://www.youtube.com/watch?v=BEOQeEUjMDo" adresine konmuştur.
 
