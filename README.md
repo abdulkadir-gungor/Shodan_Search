@@ -14,9 +14,9 @@ Gereksinimler
 ------------------
 Gerekli kütüphaneler: shodan, pyinstaller
 
-pip install shodan
+>>pip install shodan
 
-pip install pyinstaller
+>>pip install pyinstaller
 
 "pyinstaller" kodu tek parça çalıştırılabilir dosya haline getirmek için kullanılacak.
 
