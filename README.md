@@ -9,17 +9,6 @@ Kaynak kodun derlenmiş ('exe' uzantılı) dosya hali https://drive.google.com/f
 Rar şifresi "Gngr-V1.1".
 
 
-Önemli Not
---------------
-Programın çalışabilmesi için "Shodan Api Key"e sahip olunması gerekir.
-Bunun için "shodan.io" web sitesine gidilerek üye olunması gerekir. 
-Bu üyelikten sonra kullancı hesabına ("My Account") gidilerek "Shodan Api Key" öğrenilir.
-
-
-Shodan api key örneğine ait ekran görüntüsü aşağıdadır.
-![Shodan_Api_Key](https://user-images.githubusercontent.com/71177413/115117003-2d198700-9fa5-11eb-8811-de91c21ded2e.JPG)
-
-Bu "api key"i kaynak kodda görülen "Shodan_Api_Key.txt" adlı dosyanın içerisine kaydedilmelidir. 
 
 Gereksinimler
 ------------------
@@ -37,6 +26,21 @@ Kaynak Kodu Derlemek İçin
 -----------------------------
 
 >> pyinstaller --onefile  --icon=main.ico ShodanSearch.py
+
+
+
+Önemli Not
+--------------
+Programın çalışabilmesi için "Shodan Api Key"e sahip olunması gerekir.
+Bunun için "shodan.io" web sitesine gidilerek üye olunması gerekir. 
+Bu üyelikten sonra kullancı hesabına ("My Account") gidilerek "Shodan Api Key" öğrenilir.
+
+
+Shodan api key örneğine ait ekran görüntüsü aşağıdadır.
+![Shodan_Api_Key](https://user-images.githubusercontent.com/71177413/115117003-2d198700-9fa5-11eb-8811-de91c21ded2e.JPG)
+
+Bu "api key"i kaynak kodda görülen "Shodan_Api_Key.txt" adlı dosyanın içerisine kaydedilmelidir. 
+
 
 
 Kaynak Kodun Derlemiş Hali
